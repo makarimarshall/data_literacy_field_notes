@@ -73,7 +73,7 @@ Africa,,2022,1445862695,,1459.114
 Africa (GCP),,2022,,,1459.103
 Albania,ALB,2022,2827614,36171005594,4.498
 
-**What I notice:** — your raw observations, in your own words_
+**What I notice:** 
 
 I noticed the dataset has six columns. Some rows have missing information, especially in the ISO code and GDP columns. It also includes regions like Africa alongside individual countries.
 
@@ -114,6 +114,7 @@ Fill in the table from what you actually saw — not a guess from the column
 name alone:
 
 | Column | Inferred type | How I can tell |
+|---|---|---|
 | Country | String(text) |Contains country or region name|
 | iso_code | String(text) | Contains country codes like AFG, with some missing values |
 | Year | Integer (whole number) | Contains years like 2022 without decimals |
