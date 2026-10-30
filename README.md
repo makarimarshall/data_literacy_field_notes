@@ -1,5 +1,15 @@
 # Foundations Project: Data Literacy Field Notes
 
+This project is part of my data analytics training at The Marcy Lab School. I used terminal commands to explore a 2022 dataset containing country-level CO2 emissions, population, and GDP information.
+
+During my investigation, I found 36 missing ISO codes and 89 missing GDP values. I also compared data from Trinidad and Tobago and the United States.
+
+The goal of this project was to practice inspecting datasets, identifying data-quality concerns, and asking questions before drawing conclusions.
+
+My completed analysis is in `starter/field_notes.md`.
+
+---
+
 **New here?** Start with `PROJECT_OVERVIEW.md` for what you're building and
 why. This file (`README.md`) is where the step-by-step setup lives — you're
 already in the right place.

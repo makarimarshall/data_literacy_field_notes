@@ -66,7 +66,6 @@ head -n 5 data/co2_emissions_2022.csv
 ```
 
 **Output:**
-_TODO: paste what you actually got_
 
 country,iso_code,year,population,gdp,co2
 Afghanistan,AFG,2022,40578847,53303471617,10.170
@@ -74,7 +73,7 @@ Africa,,2022,1445862695,,1459.114
 Africa (GCP),,2022,,,1459.103
 Albania,ALB,2022,2827614,36171005594,4.498
 
-**What I notice:** _TODO — your raw observations, in your own words_
+**What I notice:** — your raw observations, in your own words_
 
 I noticed the dataset has six columns. Some rows have missing information, especially in the ISO code and GDP columns. It also includes regions like Africa alongside individual countries.
 
@@ -210,7 +209,6 @@ actually follow it, not "I'll be careful."
 **My rule:** Before using any information or conclusions AI gives me, I'll double-check them against the original dataset to make sure they're accurate.
 
 ## 9. Something that went wrong (and how you figured it out)
-# TODO: a command (or combination of commands) that prints just the header
 
 Somewhere in this project you're going to run a command that either throws
 an error or gives you output that isn't what you expected — everyone hits
@@ -221,6 +219,7 @@ fix — not "I googled it and it worked."
 ```bash
 cut -d ',' -f 5 data/co2_emissions_2022.csv | grep -c '^$'
 ```
+89
 
 **What happened:**
 While inspecting the GDP column, I noticed that some rows were blank instead of having numerical values.
